@@ -1,0 +1,11 @@
+@use "_variables" as *;
+@use "_mixins" as *;
+
+.content-col {
+  max-width: 800px;
+}
+
+.title-subtitle {
+  color: pvar(--fg-300);
+  font-size: 14px;
+}
